@@ -9,6 +9,7 @@ import AppProvider from './AppProvider';
 import Tabs from './Tabs';
 import ChartSection from './ChartSection';
 import Controls from './Controls';
+import Backdrop from './Backdrop';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
         </Paper>
         <Box p={1}></Box>
       </Container>
+      <Backdrop/>
     </AppProvider>
   );
 }
